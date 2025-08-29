@@ -1,6 +1,6 @@
 '''
 # ****************************************************************************************
-# Title: File Merger      	  |*******************************************************
+# Title: File Merger      	      |*******************************************************
 # Developed by: ryanshatch   	  |*******************************************************
 # Last Updated: May 15th 2024     |*******************************************************
 # Version: 1.0                    |*******************************************************
@@ -86,7 +86,7 @@ def merge_files():
             content = read_file(path)
             if content:
                 fout.write(content)
-                fout.write("\n")  # Ensure each file's content is separated
+                fout.write("\n")  # Double check that each file's content is separated
     
     tkinter.messagebox.showinfo("Success", "Files successfully combined!")
 
